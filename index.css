@@ -1,7 +1,7 @@
 *{
   margin: 0;
-  padding: 0;
   font-size: 16px;
+  box-sizing: border-box;
 }
 .Loggan{
 font-size: 200%;
@@ -12,4 +12,34 @@ text-decoration: inherit;
 }
 nav{
   color: white;
+}
+.hel{
+  width: 100%;
+}
+.nav{
+  width: 66.7%;
+  background-color: 	#4d2b25;
+}
+.nav1{
+  float: right;
+  background-color: #bffce6;
+}
+
+.vänster1, .vänster3, .vänster4{
+  background-color: 	#4d2b25;
+}
+.vänster5, .vänster2 {
+  background-color: #bffce6;
+}
+main{
+
+  background-color: 	#4d2b25;
+
+}
+.grid{
+  width: 100;
+  display: grid;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
 }
