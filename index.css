@@ -2,6 +2,7 @@
   margin: 0;
   font-size: 16px;
   box-sizing: border-box;
+  color: white;
 }
 .Loggan{
 font-size: 200%;
@@ -21,25 +22,46 @@ nav{
   background-color: 	#4d2b25;
 }
 .nav1{
+  flex: 1;
   float: right;
-  background-color: #bffce6;
+  background-color: #65dcb4;
+}
+.nav a{
+  color:  white;
+  margin: 35px;
+}
+header{
+  display: flex;
 }
 
-.vänster1, .vänster3, .vänster4{
+.vänster1, .vänster4, .vänster5, .vänster2{
   background-color: 	#4d2b25;
 }
-.vänster5, .vänster2 {
-  background-color: #bffce6;
+.vänster3, .vänster6{
+ background-color: #65dcb4;
+}
+.vänster4 h1{
+  font-size: 40px;
+  color: #65dcb4;
+  margin: 20px;
+
 }
 main{
+  background-color: 	#65dcb4;
 
-  background-color: 	#4d2b25;
+}
+.grid main{
+  grid-row: 2 / 3;
+  grid-column: 2/4;
+}
 
+main img {
+  height: 110%;
 }
 .grid{
   width: 100;
   display: grid;
   margin: auto;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 300px 300px;
+  grid-template-rows: 100px 300px 200px;
 }
