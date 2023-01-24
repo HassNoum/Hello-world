@@ -2,7 +2,7 @@
   margin: 0;
   font-size: 16px;
   box-sizing: border-box;
-  color: white;
+
 }
 .Loggan{
 font-size: 200%;
@@ -13,21 +13,23 @@ text-decoration: inherit;
 }
 nav{
   color: white;
+  border-bottom: 3px solid white;
 }
 .hel{
   width: 100%;
 }
 .nav{
   width: 66.7%;
-  background-color: 	#4d2b25;
+  background-color: 	#faff4c;
 }
 .nav1{
   flex: 1;
   float: right;
-  background-color: #65dcb4;
+  background-color: #faff4c;
+  border-bottom: 3px solid white;
 }
 .nav a{
-  color:  white;
+  color:  black;
   margin: 35px;
 }
 header{
@@ -35,19 +37,19 @@ header{
 }
 
 .vänster1, .vänster4, .vänster5, .vänster2{
-  background-color: 	#4d2b25;
+  background-color: 	#eb9648;
 }
 .vänster3, .vänster6{
- background-color: #65dcb4;
+ background-color: #faff4c;
 }
 .vänster4 h1{
   font-size: 40px;
-  color: #65dcb4;
+  color: #faff4c;
   margin: 20px;
 
 }
 main{
-  background-color: 	#65dcb4;
+  background-color: 	#faff4c;
 
 }
 .grid main{
@@ -57,11 +59,12 @@ main{
 
 main img {
   height: 110%;
+  image;
 }
 .grid{
   width: 100;
   display: grid;
   margin: auto;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 100px 300px 200px;
+  grid-template-rows: 100% 300px 100%;
 }
