@@ -1,6 +1,5 @@
 *{
   margin: 0;
-  font-size: 16px;
   box-sizing: border-box;
 
 }
@@ -12,7 +11,6 @@ a{
 text-decoration: inherit;
 }
 nav{
-  color: white;
   border-bottom: 3px solid white;
 }
 .hel{
@@ -20,16 +18,17 @@ nav{
 }
 .nav{
   width: 66.7%;
-  background-color: 	#faff4c;
+  color: white;
+  background-color: 	#0c0b2c;
 }
 .nav1{
   flex: 1;
   float: right;
-  background-color: #faff4c;
+  background-color: #1b1b20;
   border-bottom: 3px solid white;
 }
 .nav a{
-  color:  black;
+  color:  white;
   margin: 35px;
 }
 header{
@@ -37,38 +36,84 @@ header{
 }
 
 .vänster1, .vänster4, .vänster5, .vänster2{
-  background-color: 	#eb9648;
+  background-color: 	#0c0b2c;
+  color: white;
 }
 .vänster3, .vänster6{
- background-color: #faff4c;
+ background-color: #1b1b20;
 }
 .vänster4 h1{
   font-size: 40px;
-  color: #faff4c;
+  color: white;
   margin: 20px;
 
 }
 main{
-  background-color: 	#faff4c;
+  background-color: 	#1b1b20;
 
 }
-.grid main{
+.fact {
   grid-row: 2 / 3;
   grid-column: 2/4;
+
 }
 
-main img {
-  width: 90%;
-  height: 110%;
-  
-}
 .grid{
+  background-color: #1b1b20;
   display: grid;
   margin: auto;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 100% 300px 100%;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 20vh 60vh 20vh;
 }
-.secound {
-  height: 100%;
-  background-color: red;
+.pic {
+  display: flex;
+  height: 80vh;
+  grid-row: 4 / 4;
+  grid-column: 1/4;
+  background-image: url(www.webp);
+  background-repeat: no-repeat;
+  filter: blur(8px);
+  background-size: 100%;
+}
+.mitt h1{
+  font-size: 28px;
+  justify-content: center;
+  background-image: url(www.webp);
+}
+article{
+
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.down{
+  display: flex;
+  font-size: 20px;
+  color: white;
+  background-color:#0c0b2c;
+  grid-row: 5/5;
+  grid-column: 4/1;
+}
+.down p {
+  margin-top: 50px;
+  margin-left: 10vh;
+}
+.www{
+  margin: 50px;
+  width: 500px;
+}
+.www:hover{
+
+  transition: 1s;
+  width: 700px;
 }
