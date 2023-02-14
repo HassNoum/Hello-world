@@ -19,7 +19,7 @@ nav{
 .nav{
   width: 66.7%;
   color: white;
-  background-color: 	#0c0b2c;
+  background-color:#0c0b2c;
 }
 .nav1{
   flex: 1;
@@ -81,8 +81,16 @@ main{
   justify-content: center;
   background-image: url(www.webp);
 }
-article{
+@keyframes slidedown {
+  from {
+       top: 20px;
+  }
+  from, to { overflow: hidden; } 
 
+  
+}
+
+article{
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0, 0.4);
   color: white;
@@ -137,7 +145,13 @@ article{
   grid-row: 7/7;
   grid-column: 1/2;
   text-align: center;
-  color: white  ;
+  color: white;
+}
+.för{
+  margin-top: 30%;
+}
+.nack{
+  margin-top: 30%;
 }
 ul{
   list-style-type: none;
@@ -152,7 +166,37 @@ li{
   grid-column: 3/3;
   text-align: center;
   color: white;
-}
-.för{
   
 }
+.mittbil{
+  text-align: center;
+} 
+.anim{
+  animation-name: slidedown;
+  animation-duration: 0.8s;
+  animation-timing-function:ease-in;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state:running;
+  animation-delay: 0;
+}
+footer{
+  background-color: #0c0b2c;
+  color: white;
+}
+footer a{
+  
+    text-decoration: inherit;
+    color: white;
+}
+footer li{
+  
+  margin-left: 20%;
+  display: inline;
+  font-size: 20px;
+  color: white;
+}
+#kallor{
+  margin-left: 35%;}
+

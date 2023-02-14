@@ -5,7 +5,7 @@
     <title>Wikipedia</title>
     <link rel="stylesheet" href="index.css">
   </head>
-  <body>
+  <body onscroll="runOnScroll()">
 
 
     <header>
@@ -52,8 +52,10 @@
     <section class="vänster6">
 
     </section>
-    <div class="pic"></div>
-        <article>
+    <div class="pic" id="container">
+      
+    </div>
+        <article id="box">
           <h1>WWW</h1>
           <p style="font-size: 20px;">www som vi ser mycket inom webben är en forkotning till World Wide Web, vilken är en tjänds som gör webbsidor o andra datafiler åtkomliga via internet. Med det började allting att rulla på nätet. Med hjälp av en så kallad webbläsre som ger tillåtalsen för användare att ladda ned webbsidor som är lagrade på webbservrar. Servirna o sidorna bildar en världvid väv av sammanlänkade dokument därifrån kom www. </p>
         </article>
@@ -63,27 +65,29 @@
         <img class="www" src="wwww.webp" alt="" >
         <P>Allting började med att Tim Berners-lee var en engelsman som presenterade försklaget till World Wide Web den 12/mars år 1989. Det han ville först var nätbaserad informationhantering för sin arbetsgivare. Då han skapade den första webbplatsen för CERN som kom till almänheter 6 augusti år 1991. Strukturen var att websiddorna ligger fysiskt lagrade på datorer över hela världeb, datorn som tillhandhåller websidor kallas för webbserver.
           Webben är ett av många tillämingsområdetn för internet. Den fick sitt genomslag i mitten av 1990-talet, där www var vid sidan av eposten. De funktioner som www erbjör fanns sedan tidigare i form av bland annat filöverföringsprotokollet FTP, fast www var mer lättanvänt samt mångsidigare.
-          </P>
+          En väsentlig poäng var att webben skulle förbli en öppen standard för alla att använda och att ingen skulle låsa in den i ett proprietärt system. I denna anda lämnade CERN ett förslag till Europeiska unionens kommission under ESPRIT-programmet: "WebCore". Målet med projektet var att bilda ett internationellt konsortium, i samarbete med US Massachusetts Institute of Technology (MIT). 1994 lämnade Berners-Lee CERN för att gå med i MIT och grundade International World Wide Web Consortium (W3C). Samtidigt, med ett tydligt godkännande av LHC-projektet i sikte, beslutade CERN att ytterligare webbutveckling var en aktivitet utanför laboratoriets primära uppdrag. En ny europeisk partner för W3C behövdes.
+</P>
       </div>
       <div>
-        <img style="margin: 50px; margin-top: auto; float: right;" src="wwww.webp" alt="", width="500px" >
+        <img style="margin: 50px; margin-top: auto; float: right;" src="hej.jpg" alt="", width="500px" >
         <p>Före uppkomsten av World Wide Web fanns det knappast några enkla sätt att länka mellan saker och samordning saknades helt. World Wide Web härstammar från ett projekt på CERN, det europeiska forskningscentret. Tim Berners-Lee, en britt, uppfann World Wide Web 1990.
           WWW består egentligen av tre delar: HTML (Hypertext Markup Language) som används för att skapa alla webbsidor, webbläsare som renderar sidorna, och HTTP-protokollet (Hypertext Transfer Protocol) som reglerar överföringen av innehåll på webben så att webbservrar och webbläsare kan förstå varandra.
-          Den första webbsidan var http://info.cern.ch/ och skapades den 20 december 1990. Den blev tillgänglig för allmänheten den 6 augusti 1991. CERN beslutade att släppa rättigheterna till World Wide Web gratis i april 1993. </p>
+          Den första webbsidan var http://info.cern.ch/ och skapades den 20 december 1990. Den blev tillgänglig för allmänheten den 6 augusti 1991. CERN beslutade att släppa rättigheterna till World Wide Web gratis i april 1993.
+         </p>
       </div>
       </div>
 
        <aside class="Vänstpic">
-        <img style="margin: 30px; margin-left:5%;" src="wwwww.jpeg" alt="">
+        <img style="margin: 30px; margin-left:12%;" src="wwwww.jpeg" alt="">
         <h1></h1>
        </aside>
        <div class="Mittpic"> 
-        <p style="margin-top:40px ;">I sin bok "Weaving the Web" föreslog Tim Berners-Lee upprepade gånger för det tekniska samfundet att teknik och internet skulle vara ihopkopplade. När ingen tackade ja till hans inbjudan tog han sig an projektet själv och utvecklade tre viktiga teknologier: ett globalt unikt identifieringssystem för resurser på webben och på andra ställen, Universal Document Identifier (UDI), senare känd som Uniform Resource Locator (URL). ; Hypertext Markup Language (HTML) för publicering; och Hypertext Transfer Protocol (HTTP) för textöverföring. I november 1990 publicerade Tim Berners-Lee, med hjälp av Robert Cailliau, ett förslag att bygga en "World Wide Web" (W3) med hjälp av hypertextdokument som kunde ses av "webbläsare" med klient-serverarkitektur. Förslaget var påverkat av SGML-läsaren Dynatext, men det ansågs för dyrt och hade en ogynnsam licenspolicy. Berners-Lee uppskattade att en skrivskyddad webb skulle vara färdig inom tre månader och att författarskap skulle kunna bli universellt och automatiskt meddelande till läsare om nytt material skulle kunna uppnås inom sex månader. HTML och HTTP hade redan varit under utveckling i några månader och den första webbservern var nära att testas framgångsrikt.
+        <p style="margin-top:25% ;">I sin bok "Weaving the Web" föreslog Tim Berners-Lee upprepade gånger för det tekniska samfundet att teknik och internet skulle vara ihopkopplade. När ingen tackade ja till hans inbjudan tog han sig an projektet själv och utvecklade tre viktiga teknologier: ett globalt unikt identifieringssystem för resurser på webben och på andra ställen, Universal Document Identifier (UDI), senare känd som Uniform Resource Locator (URL). ; Hypertext Markup Language (HTML) för publicering; och Hypertext Transfer Protocol (HTTP) för textöverföring. I november 1990 publicerade Tim Berners-Lee, med hjälp av Robert Cailliau, ett förslag att bygga en "World Wide Web" (W3) med hjälp av hypertextdokument som kunde ses av "webbläsare" med klient-serverarkitektur. Förslaget var påverkat av SGML-läsaren Dynatext, men det ansågs för dyrt och hade en ogynnsam licenspolicy. Berners-Lee uppskattade att en skrivskyddad webb skulle vara färdig inom tre månader och att författarskap skulle kunna bli universellt och automatiskt meddelande till läsare om nytt material skulle kunna uppnås inom sex månader. HTML och HTTP hade redan varit under utveckling i några månader och den första webbservern var nära att testas framgångsrikt.
 
         </p>
        </div>
        <aside class="Högpic">
-         <img style="margin: 40px;"src="Internet.webp" alt="" width="320px" height="600px">
+         <img style="margin: 40px; margin-left: 20%;"src="Internet.webp" alt="" width="320px" height="600px">
        </aside>
        <div class="fördelar">
         <H1 class="för">Fördelarna</H1>
@@ -98,8 +102,11 @@
           </li>
         </ul>
        </div>
+       <div class="mittbil">
+        <img src="tree.jpg" alt="" width="100%">
+       </div>
        <div class="nackdelar">
-        <h1>Nackdelarna</h1>
+        <h1 class="nack">Nackdelarna</h1>
         <ul>
           <li>Statligt organiserade hackarattacker</li>
           <li>Intrång i privatlivet</li>
@@ -110,5 +117,34 @@
        </div>
   </div>
 </main>
+<script type="text/javascript">
+  var box,bounding, container;
+
+
+  function runOnScroll() {
+    box = document.getElementById("box");
+    container = document.getElementById("container");
+    bounding = container.getBoundingClientRect();
+  console.log(box)
+
+
+  if ((bounding.top >= 0 && bounding.bottom <= window.innerHeight)
+      || (bounding.bottom >= 0 && bounding.top <= window.innerHeight)) {
+      box.classList.add("anim");
+      console.log('Element is in the viewport!');
+
+  } else {
+      box.classList.remove("anim");
+      console.log('Element is NOT in the viewport!');
+  }
+  };
+  </script>
+  <footer>
+    <ul>
+      <li id="kallor">Källor </li>
+      <li>Bilder</li>
+    </ul>
+    <p style="margin-left:38%;"><a href="https://sv.wikipedia.org/wiki/World_Wide_Web">Wikipedia</a>, <a href="https://www.home.cern/science/computing/birth-web">Home.cern</a>,<a href="https://pixabay.com/sv/">Pixaby</a> , <a href="">Google photos</a>  samt <a href="">Pexels</a></p>
+  </footer>
   </body>
 </html>
